@@ -1,33 +1,7 @@
 const list = [];
 
-
-// let action = prompt("What would you like to do?");
-// if (action === 'add') {
-//     let add = list.push(prompt("What would you like to add?"))
-//     console.log(list);
-//     let action = prompt("What would you like to do?");
-// } else if (action === 'list') {
-//     for (let i = 0; i < list.length; i++) {
-//         console.log(list);
-//         let action = prompt("What would you like to do?");
-//     }
-
-// } else if (action === 'delete') {
-
-//     for (let i = 0; i < list.length; i++) {
-//         console.log(list);
-//         let remove = list.pop();
-//     }
-
-// } else if (action === 'quit') {
-//     alert("Goodbye.")
-
-// } else {
-//     prompt("That Action Is Not Recognized")
-// }
 const actions = ['new', 'list', 'delete', 'quit']
-// console.log(actions[0]);
-// let option = prompt("What Would You Like To Do");
+
 
 let option = prompt("What would you like to do?");
 
